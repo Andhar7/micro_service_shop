@@ -264,3 +264,12 @@ python manage.py test apps.users --tag=integration
 - Tests use Django's built-in testing framework with DRF's APITestCase
 - JWT authentication is properly mocked in tests using RefreshToken
 - Tests include model validation, API endpoints, serializers, and integration scenarios
+
+# Create folder in parent directories
+:!mkdir -p %:h
+
+
+   1. gg - Go to the first character of the file.
+   2. v - Enter Visual mode.
+   3. G - Go to the end of the file.
+
